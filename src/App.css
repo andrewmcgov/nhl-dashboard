@@ -1,0 +1,64 @@
+/* ---   HEADER ---   */
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #111111;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+}
+
+.page-title {
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* ---   Page Container ---   */
+.page-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---   Today Panel ---   */
+.side-bar {
+  width: 25%;
+  max-width: 300px;
+  height: 100%;
+}
+.today-title {
+  padding-left: 15px;
+}
+.games-list {
+  list-style-type: none;
+  padding: 0 15px;
+}
+.game-card {
+  margin-bottom: 15px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+}
+.game-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.team-info {
+  padding: 5px 0;
+}
+.team-record {
+  display: block;
+  color: grey;
+  font-size: 14px;
+}
+.away-team {
+  margin-bottom: 15px;
+}
